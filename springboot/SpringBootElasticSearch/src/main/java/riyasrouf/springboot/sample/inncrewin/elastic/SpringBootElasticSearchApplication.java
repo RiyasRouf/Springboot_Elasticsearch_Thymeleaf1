@@ -31,5 +31,7 @@ public class SpringBootElasticSearchApplication {
         employeeRepository.save(new Employee("6", "Guru", "Moorthi", "Architect"));
         employeeRepository.save(new Employee("7", "Muhammed", "Riyas", "Senior Developer"));
         employeeRepository.save(new Employee("8", "Abdul", "Riyas", "Software Engineer"));
+employeeRepository.save(new Employee("9", "Babu", "Raju", "Software Engineer"));
+
     }
 }
